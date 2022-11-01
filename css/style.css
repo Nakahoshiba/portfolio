@@ -1334,7 +1334,7 @@ button {
     border-radius: 15px;
     border: none;
     background: #ca8880;
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
     letter-spacing: 0.1em;
     cursor: pointer;
@@ -1420,6 +1420,7 @@ button {
     }
 
     button {
+        font-size: 15px;
         width: 338px;
         margin-bottom: 25px;
     }
