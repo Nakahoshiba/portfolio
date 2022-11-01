@@ -1334,7 +1334,7 @@ button {
     border-radius: 15px;
     border: none;
     background: #ca8880;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     letter-spacing: 0.1em;
     cursor: pointer;
@@ -1606,7 +1606,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     .top {
-        right: 5px;
+        right: 10px;
         bottom: 210px;
     }
 
