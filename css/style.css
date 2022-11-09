@@ -96,8 +96,11 @@ body {
 
 .header_wrap p {
     margin-bottom: 50px;
-    font-size: 59px;
+    font-size: 54px;
     letter-spacing: 0.1em;
+    font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro",
+        "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3",
+        "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
 }
 
 @media screen and (max-width: 1200px) {
@@ -325,6 +328,7 @@ body {
     font-size: 71px;
     font-family: "游明朝", "YuMincho", serif;
     font-weight: normal;
+    color: #785e50;
 }
 
 .arrow-round arrow-left,
@@ -806,6 +810,7 @@ ul.works_images li {
     font-size: 89px;
     font-family: "游明朝", "YuMincho", serif;
     font-weight: normal;
+    color: #785e50;
 }
 
 .service_wrap {
@@ -824,7 +829,6 @@ ul.works_images li {
 
 .service_menu h3 {
     font-size: 20px;
-    color: #333333;
 }
 
 .service_menu img {
@@ -836,7 +840,6 @@ ul.works_images li {
     margin-top: 35px;
     font-size: 1em;
     line-height: 1.7;
-    color: #333333;
 }
 
 .service_icon1 {
@@ -989,6 +992,7 @@ ul.works_images li {
     font-weight: normal;
     margin-left: 75px;
     margin-bottom: -82px;
+    color: #785e50;
 }
 
 .about_img_1 {
@@ -1011,14 +1015,14 @@ ul.works_images li {
     margin-left: 150px;
     margin-top: 75px;
     width: 42%;
-    color: #333333;
+    color: #785e50;
 }
 
 .about_info h3 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #333333;
+    color: #785e50;
 }
 
 .about_info h2 {
@@ -1026,12 +1030,12 @@ ul.works_images li {
     font-family: "游明朝", "YuMincho", serif;
     font-weight: normal;
     margin-bottom: 53px;
-    color: #333333;
+    color: #785e50;
 }
 
 .border {
     width: 616px;
-    border-bottom: 1px solid #666050;
+    border-bottom: 1px solid #785e50;
     margin: 35px 0 23px -150px;
 }
 
@@ -1041,7 +1045,7 @@ ul.works_images li {
     text-align: justify;
     font-family: "游明朝", "YuMincho", serif;
     font-weight: 200;
-    color: #333333;
+    color: #785e50;
 }
 
 .service_icon3 {
@@ -1213,12 +1217,12 @@ ul.works_images li {
     font-weight: normal;
     text-align: center;
     margin-bottom: 67px;
+    color: #785e50;
 }
 
 .contact_lead {
     font-size: 17px;
     line-height: 2;
-    color: #333333;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -1231,8 +1235,8 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #666050;
-    border-bottom: 1px solid #666050;
+    border-top: 1px solid #785e50;
+    border-bottom: 1px solid #785e50;
     padding: 10px 0;
     margin-bottom: 92px;
 }
@@ -1240,7 +1244,7 @@ span {
 .instagram p {
     font-size: 17px;
     font-weight: bold;
-    color: #333333;
+    color: #785e50;
     margin-left: 17px;
 }
 
@@ -1252,15 +1256,9 @@ span {
     width: 45px;
 }
 
-.contact_wrap p {
-    font-size: 18px;
-    color: #333333;
-    margin-bottom: 10px;
-}
-
 .Contact_name label {
     font-size: 18px;
-    color: #333333;
+    color: #785e50;
 }
 
 .name_wrap {
@@ -1300,7 +1298,7 @@ span {
 
 .contact_email label {
     font-size: 18px;
-    color: #333333;
+    color: #785e50;
 }
 
 .contact_msg {
@@ -1310,7 +1308,7 @@ span {
 
 .contact_msg label {
     font-size: 18px;
-    color: #333333;
+    color: #785e50;
 }
 
 .contact_msg textarea {
@@ -1329,15 +1327,17 @@ span {
 }
 
 button {
-    width: 800px;
+    width: 220px;
     height: 49px;
-    border-radius: 15px;
+    border-radius: 30px;
     border: none;
     background: #ca8880;
     font-size: 20px;
     color: #ffffff;
     letter-spacing: 0.1em;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
 .sp_onry_icon {
@@ -1362,7 +1362,7 @@ button {
     }
 
     button {
-        width: 645px;
+        width: 220px;
     }
 }
 
@@ -1421,7 +1421,7 @@ button {
 
     button {
         font-size: 15px;
-        width: 338px;
+        width: 220px;
         margin-bottom: 25px;
     }
 }
